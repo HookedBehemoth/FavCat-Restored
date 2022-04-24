@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ReleaseChangelog.md = ReleaseChangelog.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIExpansionKit", "UIExpansionKit\UIExpansionKit.csproj", "{85B11D98-E013-4E5D-95F3-5437DE63ACF4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FavCat", "FavCat\FavCat.csproj", "{4D6BD71E-7499-4FC8-8161-6224489DF668}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrityCheckWeaver", "IntegrityCheckWeaver\IntegrityCheckWeaver.csproj", "{5D5E4629-D3E4-472A-9FD5-02328BF765C6}"
@@ -26,10 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85B11D98-E013-4E5D-95F3-5437DE63ACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85B11D98-E013-4E5D-95F3-5437DE63ACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85B11D98-E013-4E5D-95F3-5437DE63ACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85B11D98-E013-4E5D-95F3-5437DE63ACF4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D6BD71E-7499-4FC8-8161-6224489DF668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D6BD71E-7499-4FC8-8161-6224489DF668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D6BD71E-7499-4FC8-8161-6224489DF668}.Release|Any CPU.ActiveCfg = Release|Any CPU
