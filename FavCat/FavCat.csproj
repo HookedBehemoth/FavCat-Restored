@@ -17,13 +17,6 @@
     <None Remove="extraui" />
     <EmbeddedResource Include="extraui" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UIExpansionKit">
-        <SpecificVersion>false</SpecificVersion>
-        <Private>false</Private>
-        <HintPath>$(MsBuildThisFileDirectory)Libs\UIExpansionKit.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 
   <Target Name="ILRepack" AfterTargets="Build">
     <PropertyGroup>

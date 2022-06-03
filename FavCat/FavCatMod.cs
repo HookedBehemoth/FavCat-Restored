@@ -167,7 +167,7 @@ namespace FavCat
                 var originalMethodPointer = *(IntPtr*) (IntPtr) UnhollowerUtils
                     .GetIl2CppMethodInfoPointerFieldForGeneratedMethod(
                         typeof(ApiModel).GetMethods().Single(it =>
-                            it.Name == nameof(ApiModel.SetApiFieldsFromJson) && it.GetParameters().Length == 2))
+                            it.Name == nameof(ApiModel.SetApiFieldsFromJson) && it.GetParameters().Length == 2 && it.GetParameters()[0].ParameterType.GenericTypeArguments[1] == typeof(Il2CppSystem.Object)))
                     .GetValue(null);
                 MelonUtils.NativeHookAttach((IntPtr)(&originalMethodPointer), typeof(ApiSnifferPatch).GetMethod(nameof(ApiSnifferStatic))!.MethodHandle.GetFunctionPointer());
                 ourOriginalApiPopulate = Marshal.GetDelegateForFunctionPointer<ApiPopulateDelegate>(originalMethodPointer);
